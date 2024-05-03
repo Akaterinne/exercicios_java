@@ -43,3 +43,31 @@ Para encerrar a entrada de dados digite o número do canal ZERO.
 
 EX05 -  Faça a leitura de 10 números inteiros e identifique o maior e o menor número digitado
 
+EX06 - Foi feita uma pesquisa para determinar o índice de mortalidade infantil em certo período. Faça 
+um programa que:
+a. Leia o número de crianças nascidas no período;
+b. Identifique sexo (M ou F) e o tempo de vida de cada criança nascida.
+O programa deve calcular e mostrar:
+a. A porcentagem de crianças do sexo feminino mortas no período;
+b. A porcentagem de crianças do sexo masculino mortas no período;
+c. A porcentagem de crianças que viveram 24 meses ou menos no período.
+
+EX07 - Em um cinema, certo dia, cada espectador respondeu a um questionário, que perguntava a sua 
+idade (ID) e a opinião em relação ao filme (OP), seguindo os seguintes critérios:
+
+Opinião Significado -
+A Ótimo -
+B Bom -
+C Regular -
+D Ruim -
+E Péssimo 
+
+A entrada de dados sobre a opinião deve ser validada.
+O final da pesquisa será indicado quando a idade do usuário for informada como ZERO.
+Construa um programa que, lendo esses dados, calcule e apresente:
+• Quantidade de pessoas que respondeu a pesquisa
+• Média de idade das pessoas que responderam à pesquisa 
+• Porcentagem de cada uma das respostas
+
+
+
