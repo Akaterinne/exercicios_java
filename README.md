@@ -69,5 +69,24 @@ Construa um programa que, lendo esses dados, calcule e apresente:
 • Média de idade das pessoas que responderam à pesquisa 
 • Porcentagem de cada uma das respostas
 
+EX09 - . Faça um programa que receba o valor de um carro e mostre uma tabela com os seguintes dados: 
+preço final, quantidade de parcelas e valor da parcela. Considere o seguinte:
+a) O preço final para compra à vista tem um desconto de 20%:
+b) A quantidade de parcelas pode ser 6, 12, 18, 24, 30, 36, 42, 48, 54 e 60:
+Os percentuais de acréscimo seguem na tabela abaixo: 
 
+Quantidade de Parcelas -
+Percentual de Acréscimo 
+sobre o preço final
+
+6 3% -
+12 6% -
+18 9% -
+24 12% -
+30 15% -
+36 18% -
+42 21% -
+48 24% -
+54 27% -
+60 30%
 
