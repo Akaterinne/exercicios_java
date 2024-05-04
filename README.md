@@ -69,6 +69,21 @@ Construa um programa que, lendo esses dados, calcule e apresente:
 • Média de idade das pessoas que responderam à pesquisa 
 • Porcentagem de cada uma das respostas
 
+EX08 -  O sistema de avaliação de uma determinada disciplina obedece aos seguintes critérios:
+- Durante o semestre são dadas três notas;
+- A nota final é obtida pela média aritmética das três notas;
+- É considerado aprovado o aluno que obtiver a nota superior ou igual a 6 e que tiver comparecido
+a um mínimo de 40 aulas;
+Faça um programa que:
+Leia um conjunto de dados contendo o número da matrícula, as três notas e a frequência
+(número de aulas frequentadas) de dez alunos.
+Calcule e mostre:
+a) Para cada aluno o número da matrícula, a nota final e a mensagem (aprovado ou reprovado):
+b) O total de alunos aprovados:
+c) O total de alunos reprovados:
+d) Total de alunos reprovados por frequência abaixo da mínima necessária:
+
+
 EX09 - . Faça um programa que receba o valor de um carro e mostre uma tabela com os seguintes dados: 
 preço final, quantidade de parcelas e valor da parcela. Considere o seguinte:
 a) O preço final para compra à vista tem um desconto de 20%:
