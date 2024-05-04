@@ -9,7 +9,7 @@ public class exercicio08 {
 		Scanner entrada = new Scanner(System.in);
 		
 		int matricula = 0, aulasFrequentadas = 0;
-		double nota1 = 0, nota2 = 0, nota3 = 0, notaFinal = 0;
+		double nota1 = 0, nota2 = 0, nota3 = 0, notaFinal = 0, cont1 = 0, cont2 = 0, cont3 = 0;
 		String situacao = " ";
 		
 		
@@ -27,20 +27,27 @@ public class exercicio08 {
 		aulasFrequentadas = entrada.nextInt();
 		
 		
-		notaFinal = (nota1 + nota2 + nota3/ 3);
+		notaFinal = (nota1 + nota2 + nota3) / 3;
 		
-		if (notaFinal >= 6) {
+		if (notaFinal >= 6 && aulasFrequentadas >= 40) {
 			situacao = "aprovado";
+			cont1++;
 		} else {
 			situacao = "reprovado";
+			cont2++;
 		}
-		
+
+		if (aulasFrequentadas < 40) {
+			cont3++;
+		}
 		
 		
 		System.out.println("Aluno de matricula: " + matricula + " - Nota final: " + notaFinal + "- Situação: " + situacao);
 		}
 		
-		
+		System.out.println("Quantidade de alunos aprovados: " + cont1);
+		System.out.println("Quantidade de alunos reprovados: " + cont2);
+		System.out.println("Quantidade de alunos reprovados por frequência abaixo da mínima necessária: " + cont3);
 		
 
 	}
