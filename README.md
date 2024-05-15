@@ -6,19 +6,13 @@ Faça um programa que receba a idade de 20 pessoas. Calcule e mostre:
 1. A quantidade de pessoas em cada faixa etária:
 2. A porcentagem de pessoas na primeira faixa etária, com relação ao total de pessoas:
 
-### Faixas etárias:
-- Faixa etária 1: idade até 15 anos
-- Faixa etária 2: de 16 a 30 anos
-- Faixa etária 3: de 31 a 45 anos
-- Faixa etária 4: de 46 a 60 anos
-- Faixa etária 5: acima de 60 anos
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/2356626a-323a-49c7-9470-18551bf55abf)
 
 ## EX02
 
 Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. Os códigos utilizados são:
-- `1`, `2`, `3`, `4` Votos para os respectivos candidatos
-- `5` Voto Nulo
-- `6` Voto em Branco
+
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/be3f5929-674a-4eca-a5d7-a0f5db6f6e92)
 
 Faça um programa que calcule e mostre:
 1. O total de votos para cada candidato
@@ -64,12 +58,7 @@ O programa deve calcular e mostrar:
 
 Em um cinema, certo dia, cada espectador respondeu a um questionário, que perguntava a sua idade (ID) e a opinião em relação ao filme (OP), seguindo os seguintes critérios:
 
-### Opinião Significado
-- A: Ótimo
-- B: Bom
-- C: Regular
-- D: Ruim
-- E: Péssimo
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/05b8ccfc-ca99-4c35-aa7c-a0720d9a21cc)
 
 A entrada de dados sobre a opinião deve ser validada. O final da pesquisa será indicado quando a idade do usuário for informada como `0`. Construa um programa que, lendo esses dados, calcule e apresente:
 - Quantidade de pessoas que respondeu a pesquisa
@@ -97,16 +86,87 @@ Faça um programa que receba o valor de um carro e mostre uma tabela com os segu
 1. O preço final para compra à vista tem um desconto de 20%
 2. A quantidade de parcelas pode ser 6, 12, 18, 24, 30, 36, 42, 48, 54 e 60
 
-### Percentuais de Acréscimo:
-- 6 parcelas: 3%
-- 12 parcelas: 6%
-- 18 parcelas: 9%
-- 24 parcelas: 12%
-- 30 parcelas: 15%
-- 36 parcelas: 18%
-- 42 parcelas: 21%
-- 48 parcelas: 24%
-- 54 parcelas: 27%
-- 60 parcelas: 30%
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/a8ac4ca5-7970-4207-8c73-825ea0336a3f)
+
+## EX10
+
+Construa um programa que calcule e apresente o total da compra realizada pelo cliente em
+uma loja. São fornecidos para o programa, o preço da etiqueta (PE) de cada um dos produtos
+comprados e, com a compra encerrada, a condição de pagamento escolhida pelo cliente (CP).
+Utilize para os cálculos a tabela de condições de pagamento a seguir:
+
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/1d67e940-47a8-4b04-ad22-704b260115c9)
+
+Uma compra pode ser composta por mais do que um produto, portanto, deve ser indicado para o
+programa quando a compra deve ser encerrada (PE=0).
+OBS: Não se esqueça de validar a entrada do código da condição de pagamento.
+Verifique se deseja inserir nova compra (sim/não).
+
+## EX11
+
+.Faça um programa que receba o valor de uma dívida e mostre uma tabela com os seguintes
+dados:
+✓ Valor da dívida, valor do juros, quantidade de parcelas e valor da parcela.
+Os juros e a quantidade de parcelas seguem a tabela:
+
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/1e789d7b-41bf-41a8-930e-082275983672)
+
+## EX12
+Faça um programa que gerencie a locação de DVDs:
+▪ O programa deve exibir qual a locação que está sendo realizada (1º Locação).
+▪ Solicite ao usuário:
+Código do cliente;
+Código do DVD (Validação do código um número inteiro entre 1 e 20);
+Tipo do DVD (Validação do tipo uma letra A, C ou D;
+Verifique o valor da locação do DVD, conforme a tabela abaixo:
+
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/c3842452-a3f3-45b3-a1e9-9c53dad1428c)
+
+Em uma locação o cliente pode alugar diversos DvDs (Pergunte se ele deseja
+alugar outro DVD antes de finalizar a locação), ao final exibir a quantidade de
+DVDs alugados e o valor da locação.
+▪ Promoção de locação:
+▪ Se quantidade de DVDs for maior ou igual a 4 desconto de 5% sobre o
+valor da locação.
+▪ Exibir valor final da locação.
+▪ Ao final da locação verifique se deseja cadastrar uma nova locação.
+Ao finalizar as locações exibir:
+- Número de Locações realizadas:
+- Valor Total das locações:
+- Exibir código do cliente e valor da Maior locação;
+- Exibir código do cliente e valor da Menor locação;
+
+## EX13
+
+Você é o responsável por desenvolver um pseudocódigo que gerencie as vendas dos
+computadores da empresa Dell:
+Dados de Entrada:
+• O nome do Cliente;
+• O tipo do computador, a digitação do tipo tem que ser válida, ou seja, um número inteiro 1
+ou 2. (1 – Desktops ou 2 – Notebooks);
+• O modelo do computador, a digitação do modelo tem que ser válida, ou seja:
+o I3 – Processador I3
+o I5 – Processador I5
+o I7 – Processador I7
+• A quantidade de computadores;
+Verifique o valor do computador, conforme a tabela abaixo
+
+![image](https://github.com/Akaterinne/exercicios_java/assets/141957767/60cd47bc-bc01-4853-8f0c-bd6c08e98a62)
+
+Um cliente pode comprar diversos computadores, para gerenciar os itens da venda digite 0
+(zero) no tipo para encerrar a compra do cliente.
+• Exibir o valor e a quantidade de itens da compra;
+• Solicitar a forma de pagamento (CP), a digitação da forma tem que ser válida, ou seja, V à
+vista ou P a prazo;
+o Pagamento à vista:
+Clientes que comprarem 2 computadores ou mais tem 20% de desconto, caso
+contrário apenas 10% de desconto.
+o Pagamento a prazo:
+Acréscimo de 10% sobre o valor da compra;
+Solicitar quantidade de parcelas.
+• Exibir dados da compra:
+o Forma de pagamento escolhida.
+o Valor Final da compra.
+• Perguntar se deseja cadastrar uma nova venda.
 
 
